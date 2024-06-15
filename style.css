@@ -350,7 +350,7 @@ span {
     background: var(--second-bg-color);
 }
 
-.education {
+.event {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,34 +359,34 @@ span {
     padding-bottom: 5rem;
 }
 
-.education .education-row {
+.event .event-row {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
 }
 
-.education-row .education-column {
+.event-row .event-column {
     flex: 1 1 40rem;
 }
 
-.education-column .title {
+.event-column .title {
     position: relative;
     display: inline-block;
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
 }
 
-.education-column .education-box {
+.event-column .event-box {
     position: relative;
     border-left: .2rem solid var(--main-color);
 }
 
-.education-box .education-content {
+.event-box .event-content {
     position: relative;
     padding-left: 2rem;
 }
 
-.education-box .education-content::before {
+.event-box .event-content::before {
     content: '';
     position: absolute;
     top: 0;
@@ -397,7 +397,7 @@ span {
     border-radius: 50%;
 }
 
-.education-content .content {
+.event-content .content {
     position: relative;
     padding: 1.5rem;
     border: .2rem solid var(--main-color);
@@ -406,7 +406,7 @@ span {
     overflow: hidden;
 }
 
-.education-content .content::before {
+.event-content .content::before {
     content: '';
     position: absolute;
     top: 0;
@@ -418,63 +418,63 @@ span {
     transition: .5s;
 }
 
-.education-content .content:hover::before {
+.event-content .content:hover::before {
     width: 100%;
 }
 
-.education-content .content .year {
+.event-content .content .year {
     font-size: 1.5rem;
     color: var(--main-color);
     padding-bottom: .5rem;
 }
 
-.education-content .content .year i {
+.event-content .content .year i {
     padding-right: .5rem;
 }
 
-.education-content .content h3 {
+.event-content .content h3 {
     font-size: 2rem;
 }
 
-.education-content .content p {
+.event-content .content p {
     font-size: 1.6rem;
     padding-top: .5rem;
 }
 
-.skills {
+.team {
     min-height: auto;
     padding-bottom: 7rem;
     background: var(--second-bg-color);
 }
 
-.skills h2 {
+.team h2 {
     display: inline-block;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.skills .skills-row {
+.team .team-row {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
 }
 
-.skills-row .skills-column {
+.team-row .team-column {
     flex: 1 1 40rem;
 }
 
-.skills-column .title {
+.team-column .title {
     position: relative;
     display: inline-block;
     font-size: 2.5rem;
     margin: 0 0 1.5rem;
 }
 
-.skills-column .skills-box {
+.team-column .team-box {
     position: relative;
 }
 
-.skills-box .skills-content {
+.team-box .team-content {
     position: relative;
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
@@ -483,7 +483,7 @@ span {
     overflow: hidden;
 }
 
-.skills-box .skills-content::before {
+.team-box .team-content::before {
     content: '';
     position: absolute;
     top: 0;
@@ -495,25 +495,25 @@ span {
     transition: .5s;
 }
 
-.skills-box .skills-content:hover::before {
+.team-box .team-content:hover::before {
     width: 100%;
 }
 
-.skills-content .progress {
+.team-content .progress {
     padding: 1rem 0;
 }
 
-.skills-content .progress h3 {
+.team-content .progress h3 {
     font-size: 1.7rem;
     display: flex;
     justify-content: space-between;
 }
 
-.skills-content .progress h3 span {
+.team-content .progress h3 span {
     color: var(--text-color);
 }
 
-.skills-content .progress .bar {
+.team-content .progress .bar {
     height: 2.5rem;
     border-radius: .6rem;
     border: .2rem solid var(--main-color);
@@ -521,42 +521,42 @@ span {
     margin: 1rem 0;
 }
 
-.skills-content .progress .bar span {
+.team-content .progress .bar span {
     display: block;
     height: 100%;
     border-radius: .3rem;
     background: var(--main-color);
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
+.team-column:nth-child(1) .team-content .progress:nth-child(1) .bar span {
     width: 90%;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
+.team-column:nth-child(1) .team-content .progress:nth-child(2) .bar span {
     width: 80%;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
+.team-column:nth-child(1) .team-content .progress:nth-child(3) .bar span {
     width: 65%;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
+.team-column:nth-child(1) .team-content .progress:nth-child(4) .bar span {
     width: 75%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
+.team-column:nth-child(2) .team-content .progress:nth-child(1) .bar span {
     width: 95%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
+.team-column:nth-child(2) .team-content .progress:nth-child(2) .bar span {
     width: 67%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+.team-column:nth-child(2) .team-content .progress:nth-child(3) .bar span {
     width: 85%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
+.team-column:nth-child(2) .team-content .progress:nth-child(4) .bar span {
     width: 60%;
 }
 
@@ -731,13 +731,13 @@ section:nth-child(odd) .animate.scroll,
     background: var(--second-bg-color);
 }
 
-.education .education-box .animate.scroll {
+.event .event-box .animate.scroll {
     width: 105%;
 }
 
 .about.show-animate .animate.scroll,
-.education.show-animate .animate.scroll,
-.skills.show-animate .animate.scroll,
+.event.show-animate .animate.scroll,
+.team.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll {
     transition-delay: calc(.3s * var(--i));
@@ -877,7 +877,7 @@ section:nth-child(odd) .animate.scroll,
         font-size: 5.2rem;
     }
 
-    .education {
+    .event {
         padding: 10rem 4% 5rem 5%;
     }
 
